@@ -8,9 +8,9 @@ int gColor = 0;
 int bColor = 0;
 void setup()
 {
-  PImage img;
-  img = loadImage("tornado.jpg");
-  img.resize(300,300);
+  //PImage img;
+  //img = loadImage("tornado.jpg");
+  //img.resize(300,300);
   ;size(300,300);
   strokeWeight(5);
   background(0,0,0);
@@ -18,10 +18,10 @@ void setup()
 }
 void draw()
 {
-   PImage img;
-  img = loadImage("tornado.jpg");
-  img.resize(300,300);
-    background(0,0,0);
+   //PImage img;
+  //img = loadImage("tornado.jpg");
+  //img.resize(300,300);
+  background(0,0,0);
   rColor = (int)random(211,255);
   gColor = (int)random(190,235);
   bColor = (int)random(0,0);
