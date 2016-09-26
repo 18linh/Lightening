@@ -11,14 +11,14 @@ void setup()
   //PImage img;
   //img = loadImage("tornado.jpg");
   //img.resize(300,300);
-  ;size(300,300);
+  size(300,300);
   strokeWeight(5);
   background(0,0,0);
   opacity=255;
 }
 void draw()
 {
-   //PImage img;
+  //PImage img;
   //img = loadImage("tornado.jpg");
   //img.resize(300,300);
   background(0,0,0);
