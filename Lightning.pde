@@ -13,7 +13,7 @@ void setup()
   img.resize(300,300);
   ;size(300,300);
   strokeWeight(5);
-  background(img);
+  background(0,0,0);
   opacity=255;
 }
 void draw()
@@ -21,7 +21,7 @@ void draw()
    PImage img;
   img = loadImage("tornado.jpg");
   img.resize(300,300);
-    background(img);
+    background(0,0,0);
   rColor = (int)random(211,255);
   gColor = (int)random(190,235);
   bColor = (int)random(0,0);
